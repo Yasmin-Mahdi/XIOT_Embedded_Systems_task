@@ -13,7 +13,7 @@ you have to chose only any pins in PORT A because they only allow ADC in this MC
 and you should change this function "ADC_voidStartConv(zero);" to take any number between zero and seven according to 
 the chossed chanel. 
 
-- if you want to change the design please don't change the switch pin because it is designed on the interrupt pin of interrupt0 and processor can only be interrupted from this pin.
+-if you want to change the design please don't change the switch pin because it is designed on the interrupt pin of interrupt0 and processor can only be interrupted from this pin.
 
 -I  divided the system to MCAL ,HAL and application layers according to autosar.
 
